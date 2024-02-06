@@ -1,0 +1,120 @@
+.cards {
+  background: rgb(39, 43, 48);
+  width: 1920px;
+  height: 763px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  &__title {
+    background: rgb(33, 37, 41);
+    width: 450px;
+    height: 500px;
+    margin-top: 52px;
+    margin-bottom: 10px;
+  }
+  &__title-top {
+    color: rgb(243, 243, 243);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 30px 30px;
+  }
+  &__text {
+    color: rgb(243, 243, 243);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  &__img {
+    padding: 0 30px;
+  }
+}
+@media (max-width: 1152px) {
+  .cards {
+    background: rgb(39, 43, 48);
+    width: 1152px;
+    height: 551px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    &__title {
+      background: rgb(33, 37, 41);
+      width: 340px;
+      height: 451px;
+      margin-top: 52px;
+    }
+    &__title-top {
+      color: rgb(243, 243, 243);
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 29px;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+    &__text {
+      color: rgb(243, 243, 243);
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 130%;
+      letter-spacing: 0%;
+      text-align: left;
+      margin-bottom: 30px;
+      padding: 0 30px;
+      width: 300px;
+      height: 150px;
+      margin-bottom: 15px;
+    }
+    &__img {
+      width: 300px;
+      height: 160px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .cards {
+    background: rgb(39, 43, 48);
+    width: 768px;
+    height: 942px;
+    
+
+    &__title {
+      background: rgb(33, 37, 41);
+      width: 340px;
+      height: 451px;
+      margin-top: 52px;
+    }
+    &__title-top {
+      color: rgb(243, 243, 243);
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 29px;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+    &__text {
+      color: rgb(243, 243, 243);
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 130%;
+      letter-spacing: 0%;
+      text-align: left;
+      margin-bottom: 30px;
+      padding: 0 30px;
+      width: 300px;
+      height: 150px;
+      margin-bottom: 15px;
+    }
+    &__img {
+      width: 300px;
+      height: 160px;
+    }
+  }
+}

@@ -1,0 +1,417 @@
+.main {
+  background-image: url(../images/bacground2.png);
+  width: 1920px;
+  height: 400px;
+  &__title {
+    padding: 104px 255px;
+  }
+  &__title-top {
+    color: rgb(243, 243, 243);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  &__text {
+    color: rgb(243, 243, 243);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 516px;
+    height: 78px;
+    margin-bottom: 50px;
+  }
+  &__subtitle {
+    color: rgb(243, 243, 243);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+}
+
+.us {
+  background: rgb(33, 37, 41);
+  width: 1920px;
+  height: 1210px;
+  &__title {
+    padding: 109px 375px;
+  }
+  &__text {
+    color: rgb(243, 243, 243);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  &__text-top {
+    color: rgb(243, 243, 243);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    &__btn {
+      :hover {
+        background-color: white;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+    &__title {
+      padding: 120px 119px;
+      background: rgb(82, 31, 132);
+    }
+    &__top {
+      display: flex;
+      gap: 100px;
+    }
+    &__text {
+      color: rgb(243, 243, 243);
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 180%;
+      letter-spacing: 0%;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    &__text-top {
+      color: rgb(164, 102, 225);
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 180%;
+      letter-spacing: 0%;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    &__btn {
+      background-color: transparent;
+      box-sizing: border-box;
+      border: 2px solid rgb(243, 243, 243);
+    }
+    &__btn-text {
+      color: rgb(243, 243, 243);
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 130%;
+      letter-spacing: 0%;
+      text-align: left;
+      padding: 10px 30px;
+    }
+  }
+  .partners {
+    &__title-top {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &__icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 70px;
+    }
+    &__text {
+      color: rgb(243, 243, 243);
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 130%;
+      letter-spacing: 0%;
+      text-align: left;
+      margin-bottom: 100px;
+    }
+  }
+}
+
+@media (max-width: 1152px) {
+  .main {
+    background-image: url(../images/bacground2.png);
+    width: 1152px;
+    height: 400px;
+    &__title {
+      padding: 104px 255px;
+    }
+    &__title-top {
+      color: rgb(243, 243, 243);
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 44px;
+      letter-spacing: 0%;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    &__text {
+      color: rgb(243, 243, 243);
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 130%;
+      letter-spacing: 0%;
+      text-align: left;
+      width: 516px;
+      height: 78px;
+      margin-bottom: 50px;
+    }
+    &__subtitle {
+      color: rgb(243, 243, 243);
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 130%;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+  }
+
+  .us {
+    background: rgb(33, 37, 41);
+    width: 1152px;
+
+    &__text {
+      color: rgb(243, 243, 243);
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 44px;
+      letter-spacing: 0%;
+      text-align: left;
+      display: flex;
+      justify-content: center;
+    }
+    &__text-top {
+      color: rgb(243, 243, 243);
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 29px;
+      letter-spacing: 0%;
+      text-align: left;
+      display: flex;
+      justify-content: center;
+    }
+    .card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 80px;
+      &__btn {
+        :hover {
+          background-color: white;
+          color: rgb(0, 0, 0);
+          font-size: 20px;
+          font-weight: 600;
+        }
+      }
+      &__title {
+        padding: 73px 80px;
+        background: rgb(82, 31, 132);
+      }
+      &__top {
+        display: flex;
+        gap: 20px;
+      }
+      &__text {
+        color: rgb(243, 243, 243);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 180%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 20px;
+      }
+      &__text-top {
+        color: rgb(164, 102, 225);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 180%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 20px;
+      }
+      &__btn {
+        background-color: transparent;
+        box-sizing: border-box;
+        border: 2px solid rgb(243, 243, 243);
+      }
+      &__btn-text {
+        color: rgb(243, 243, 243);
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 130%;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+    }
+    .partners {
+      &__title-top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      &__icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+      }
+      &__text {
+        color: rgb(243, 243, 243);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 130%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 100px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    background-image: url(../images/bacground2.png);
+    width: 768px;
+    height: 400px;
+    &__title {
+      padding: 104px 255px;
+    }
+    &__title-top {
+      color: rgb(243, 243, 243);
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 44px;
+      letter-spacing: 0%;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    &__text {
+      color: rgb(243, 243, 243);
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 130%;
+      letter-spacing: 0%;
+      text-align: left;
+      width: 516px;
+      height: 78px;
+      margin-bottom: 50px;
+    }
+    &__subtitle {
+      color: rgb(243, 243, 243);
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 130%;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+  }
+
+  .us {
+    background: rgb(33, 37, 41);
+    width: 1152px;
+
+    &__text {
+      color: rgb(243, 243, 243);
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 44px;
+      letter-spacing: 0%;
+      text-align: left;
+      display: flex;
+      justify-content: center;
+    }
+    &__text-top {
+      color: rgb(243, 243, 243);
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 29px;
+      letter-spacing: 0%;
+      text-align: left;
+      display: flex;
+      justify-content: center;
+    }
+    .card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 80px;
+      &__btn {
+        :hover {
+          background-color: white;
+          color: rgb(0, 0, 0);
+          font-size: 20px;
+          font-weight: 600;
+        }
+      }
+      &__title {
+        padding: 73px 80px;
+        background: rgb(82, 31, 132);
+      }
+      &__top {
+        display: flex;
+        gap: 20px;
+      }
+      &__text {
+        color: rgb(243, 243, 243);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 180%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 20px;
+      }
+      &__text-top {
+        color: rgb(164, 102, 225);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 180%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 20px;
+      }
+      &__btn {
+        background-color: transparent;
+        box-sizing: border-box;
+        border: 2px solid rgb(243, 243, 243);
+      }
+      &__btn-text {
+        color: rgb(243, 243, 243);
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 130%;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+    }
+    .partners {
+      &__title-top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      &__icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+      }
+      &__text {
+        color: rgb(243, 243, 243);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 130%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 100px;
+      }
+    }
+  }
+}

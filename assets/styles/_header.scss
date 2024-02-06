@@ -1,0 +1,522 @@
+.header {
+  &__top {
+    background-image: url(../images/bacground1.png);
+    background-repeat: no-repeat;
+    width: 1920px;
+  }
+
+  &__btn1 {
+    width: 211px;
+    height: 100px;
+    background: rgb(106, 54, 156);
+    border: none;
+    color: white;
+  }
+
+  &__left {
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  &__left-top {
+    display: flex;
+    gap: 10px;
+  }
+
+  &__icon {
+    padding: 0 30px;
+  }
+
+  &__title-left {
+    display: flex;
+    gap: 10px;
+  }
+
+  &__left-number {
+    color: rgb(243, 243, 243);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 130%;
+  }
+
+  &__right {
+    display: flex;
+    gap: 356px;
+  }
+
+  &__right-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 108px;
+  }
+
+  &__item {
+    color: rgb(243, 243, 243);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+  }
+
+  &__option {
+    color: rgb(243, 243, 243);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    border: none;
+    background-color: transparent;
+  }
+
+  &__title {
+    padding: 100px 255px;
+  }
+
+  &__title-top {
+    color: rgb(243, 243, 243);
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 68px;
+  }
+  &__title-text {
+    color: rgb(243, 243, 243);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 130%;
+    width: 570px;
+    height: 78px;
+  }
+  &__button {
+    display: flex;
+    gap: 20px;
+  }
+  &__btn {
+    border: 2px solid rgb(243, 243, 243);
+    background-color: transparent;
+    margin-bottom: 100px;
+    :hover {
+      background-color: white;
+      color: black;
+    }
+  }
+
+  &__btn-text {
+    color: rgb(243, 243, 243);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 130%;
+    padding: 10px 30px;
+  }
+  &__subtitle {
+    color: rgb(243, 243, 243);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 30px;
+  }
+  &__fact {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+  }
+  &__fact-text {
+    color: rgb(243, 243, 243);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+}
+.facts {
+  display: flex;
+  gap: 30px;
+  &__number {
+    color: rgb(4, 255, 20);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  &__number1 {
+    color: rgb(4, 255, 20);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0 100px;
+  }
+}
+.line {
+  &__numbers {
+    display: flex;
+    gap: 65px;
+  }
+  &__number {
+    color: rgb(243, 243, 243);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: flex;
+    gap: 91px;
+  }
+}
+
+@media (max-width: 1152px) {
+  .header {
+    &__top {
+      background-image: url(../images/bacground1.png);
+      background-repeat: no-repeat;
+      width: 1152px;
+    }
+
+    &__left {
+      background: rgba(0, 0, 0, 0.4);
+      width: 100%;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    &__left-top {
+      display: flex;
+      gap: 10px;
+    }
+
+    &__icon {
+      padding: 0 30px;
+    }
+
+    &__title-left {
+      display: flex;
+      gap: 20px;
+    }
+
+    &__left-number {
+      color: rgb(243, 243, 243);
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 130%;
+    }
+
+    &__right {
+      display: flex;
+      gap: 356px;
+    }
+
+    &__right-top {
+      display: flex;
+      gap: 100px;
+    }
+
+    &__item {
+      color: rgb(243, 243, 243);
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      text-align: left;
+    }
+
+    &__option {
+      color: rgb(243, 243, 243);
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 22px;
+      text-align: left;
+      border: none;
+      background-color: transparent;
+    }
+
+    &__title {
+      padding: 100px 255px;
+    }
+
+    &__title-top {
+      color: rgb(243, 243, 243);
+      font-size: 56px;
+      font-weight: 800;
+      line-height: 68px;
+    }
+    &__title-text {
+      color: rgb(243, 243, 243);
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 130%;
+      width: 570px;
+      height: 78px;
+    }
+    &__button {
+      display: flex;
+      gap: 20px;
+    }
+    &__btn {
+      border: 2px solid rgb(243, 243, 243);
+      background-color: transparent;
+      margin-bottom: 100px;
+      :hover {
+        background-color: white;
+        color: black;
+      }
+    }
+
+    &__btn-text {
+      color: rgb(243, 243, 243);
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 130%;
+      padding: 10px 30px;
+    }
+    &__subtitle {
+      color: rgb(243, 243, 243);
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 29px;
+      margin-bottom: 30px;
+    }
+    &__fact {
+      display: flex;
+      gap: 50px;
+      margin-bottom: 30px;
+    }
+    &__fact-text {
+      color: rgb(243, 243, 243);
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+  }
+  .facts {
+    display: flex;
+    gap: 30px;
+    &__number {
+      color: rgb(4, 255, 20);
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 29px;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+    &__number1 {
+      color: rgb(4, 255, 20);
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 29px;
+      letter-spacing: 0%;
+      text-align: left;
+      padding: 0 100px;
+    }
+  }
+  .line {
+    &__numbers {
+      display: flex;
+      gap: 65px;
+    }
+    &__number {
+      color: rgb(243, 243, 243);
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      letter-spacing: 0%;
+      text-align: left;
+      display: flex;
+      gap: 91px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    &__top {
+      background-image: url(../images/bacground1.png);
+      background-repeat: no-repeat;
+      width: 768px;
+      height: 460px;
+    }
+
+    &__left {
+      background: rgba(0, 0, 0, 0.4);
+      width: 100%;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+
+    &__left-top {
+      display: flex;
+      gap: 10px;
+    }
+
+    &__icon {
+      padding: 0 30px;
+    }
+
+    &__title-left {
+      display: flex;
+      gap: 10px;
+    }
+
+    &__left-number {
+      color: rgb(243, 243, 243);
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 130%;
+    }
+
+    &__right {
+      display: flex;
+      gap: 356px;
+    }
+
+    &__right-top {
+      display: flex;
+      gap: 100px;
+    }
+
+    &__item {
+      color: rgb(243, 243, 243);
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      text-align: left;
+      :hover {
+        background: rgb(243, 243, 243);
+        transform: rotate(1080px);
+        transition: all;
+        transition-duration: 0.8s;
+      }
+    }
+
+    &__option {
+      color: rgb(243, 243, 243);
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 22px;
+      text-align: left;
+      border: none;
+      background-color: transparent;
+    }
+
+    &__title {
+      padding: 100px 255px;
+    }
+
+    &__title-top {
+      color: rgb(243, 243, 243);
+      font-size: 56px;
+      font-weight: 800;
+      line-height: 68px;
+    }
+    &__title-text {
+      color: rgb(243, 243, 243);
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 130%;
+      width: 570px;
+      height: 78px;
+    }
+    &__button {
+      display: flex;
+      gap: 20px;
+    }
+    &__btn {
+      width: 230px;
+      height: 46px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: transparent;
+      border: none;
+      box-sizing: border-box;
+      border: 2px solid rgb(243, 243, 243);
+      cursor: pointer;
+      :hover {
+        background: rgb(243, 243, 243);
+        transform: rotate(1080px);
+        transition: all;
+        transition-duration: 0.8s;
+        a {
+          color: rgb(0, 0, 0);
+        }
+      }
+
+      &__btn-text {
+        color: rgb(243, 243, 243);
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 130%;
+        padding: 10px 30px;
+      }
+      &__subtitle {
+        color: rgb(243, 243, 243);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        margin-bottom: 30px;
+      }
+      &__fact {
+        display: flex;
+        gap: 50px;
+        margin-bottom: 30px;
+      }
+      &__fact-text {
+        color: rgb(243, 243, 243);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+    }
+    .facts {
+      display: flex;
+      gap: 30px;
+      background: rgba(0, 0, 0, 0.4);
+      &__number {
+        color: rgb(4, 255, 20);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+      &__number1 {
+        color: rgb(4, 255, 20);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding: 0 30px;
+      }
+    }
+    .line {
+      &__numbers {
+        display: flex;
+        gap: 65px;
+      }
+      &__number {
+        color: rgb(243, 243, 243);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: left;
+        display: flex;
+        gap: 91px;
+      }
+    }
+  }
+}

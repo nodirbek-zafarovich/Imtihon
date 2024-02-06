@@ -1,0 +1,217 @@
+.footer {
+  background: rgb(33, 37, 41);
+  width: 1920px;
+  height: 700px;
+  &__iframe {
+    width: 1920px;
+    height: 405px;
+    margin-bottom: 40px;
+    margin: 0;
+  }
+  &__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 223px;
+    margin-bottom: 26px;
+
+  }
+  &__text {
+    color: rgb(243, 243, 243);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  &__text-top {
+    color: rgb(175, 175, 175);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  &__text-mail {
+    color: rgb(175, 175, 175);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0 70px;
+  }
+  &__top {
+    display: flex;
+    padding: 0 255px;
+    gap: 10px;
+    margin-bottom: 70px;
+  }
+  &__subtitle {
+    display: flex;
+    gap: 39px;
+    padding: 0 160px;
+  }
+  &__adress {
+    color: rgb(243, 243, 243);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 299px;
+    height: 45px;
+  }
+  &__mail {
+    color: rgb(243, 243, 243);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0 10px;
+  }
+  &__phone {
+    color: rgb(243, 243, 243);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0 32px;
+  }
+  &__work {
+    color: rgb(243, 243, 243);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  &__end {
+    background: rgb(39, 43, 48);
+    width: 1920px;
+    height: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 460px;
+  }
+  &__end-text {
+    color: rgb(175, 175, 175);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 38px 255px;
+  }
+}
+
+@media (max-width: 1152px) {
+  .footer {
+    background: rgb(33, 37, 41);
+    width: 1152px;
+    height: 700px;
+    &__iframe {
+      width: 1152px;
+      height: 400px;
+    }
+    &__title {
+      display: flex;
+      gap: 100px;
+      margin-bottom: 26px;
+    }
+    &__text {
+      color: rgb(243, 243, 243);
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 130%;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+
+    &__text-top {
+      color: rgb(175, 175, 175);
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 130%;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+    &__text-mail {
+      color: rgb(175, 175, 175);
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 130%;
+      letter-spacing: 0%;
+      text-align: left;
+      padding: 0 70px;
+    }
+    &__top {
+      display: flex;
+      padding: 0;
+      gap: 10px;
+      margin-bottom: 70px;
+    }
+    &__subtitle {
+      display: flex;
+      gap: 39px;
+      padding: 0 65px;
+    }
+    &__adress {
+      color: rgb(243, 243, 243);
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 130%;
+      letter-spacing: 0%;
+      text-align: left;
+      width: 299px;
+      height: 45px;
+    }
+    &__mail {
+      color: rgb(243, 243, 243);
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 130%;
+      letter-spacing: 0%;
+      text-align: left;
+      padding: 0 10px;
+    }
+    &__phone {
+      color: rgb(243, 243, 243);
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 130%;
+      letter-spacing: 0%;
+      text-align: left;
+      padding: 0 32px;
+    }
+    &__work {
+      color: rgb(243, 243, 243);
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 130%;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+    &__end {
+      background: rgb(39, 43, 48);
+      width: 1152px;
+      height: 98px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0;
+    }
+    &__end-text {
+      color: rgb(175, 175, 175);
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      letter-spacing: 0%;
+      text-align: left;
+      padding: 38px 170px;
+    }
+  }
+}
